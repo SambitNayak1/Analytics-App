@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.meeting-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.meeting-container label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left; /* Align labels to the left */
+}
+
+.meeting-container input,
+.meeting-container select {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.meeting-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin to create space between buttons */
+}
+
+.meeting-container button:last-child {
+  margin-right: 0; /* Remove margin for the last button (Reset) */
+}
+
+.meeting-wrapper {
+  display: flex;
+  margin: 20px 10px;
+}
+
+.meeting-container,
+.summary-wrapper {
+  flex: 1;
+  margin-left: 20px; /* Adjust the margin as needed for spacing between the components */
+}
+
+/* Add these styles to your existing CSS file */
+
+.small-label {
+  width: 400px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.small-input {
+  width: 80px; /* Adjust the width as needed */
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.summary-table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 20px;
+}
+
+.summary-table td {
+  padding: 8px;
+  text-align: left;
+  padding: 30px;
+}
+
+.checkbox-list {
+  padding-left: 20px; /* Adjust the space between checkbox and label */
+}
+
+.summary-container .send-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin to create space between buttons */
+}
