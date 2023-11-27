@@ -161,18 +161,12 @@ const SummaryComponent = ({
             <td>
               <button
                 onClick={() => handleUpdate("userName")}
-                style={{ backgroundColor: "seagreen" }}
+                style={{ backgroundColor: "springreen" }}
               >
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+           
           </tr>
           <tr>
             <td>Organization:</td>
@@ -189,13 +183,7 @@ const SummaryComponent = ({
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+           
           </tr>
 
           <tr>
@@ -213,13 +201,7 @@ const SummaryComponent = ({
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+           
           </tr>
           <tr>
             <td>Date:</td>
@@ -232,13 +214,7 @@ const SummaryComponent = ({
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+           
           </tr>
 
           <tr>
@@ -256,13 +232,7 @@ const SummaryComponent = ({
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+           
           </tr>
 
           <tr>
@@ -280,13 +250,7 @@ const SummaryComponent = ({
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+            
           </tr>
 
           <tr>
@@ -321,13 +285,7 @@ const SummaryComponent = ({
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+           
           </tr>
 
           <tr>
@@ -362,13 +320,7 @@ const SummaryComponent = ({
                 Update
               </button>
             </td>
-            <td>
-              <button onClick={handleDelete}>
-                <span role="img" aria-label="delete">
-                  ❌
-                </span>
-              </button>
-            </td>
+            
           </tr>
         </tbody>
       </table>

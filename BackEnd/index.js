@@ -1,11 +1,14 @@
 const express = require("express");
 const app = express();
 const PORT = 5000;
+const logsRouters = require("./Routers/logs");
 
 const cors = require("cors");
 app.use(cors());
 
 app.use(express.json());
+//Used to get all the logs "http://174.138.122.222:5000/api/saveMeeting/logs"
+app.use('/api', logsRouters);
 
 const logger = require("./logger");
 
@@ -24,7 +27,7 @@ app.post("/api/saveMeetingData", (req, res) => {
 app.post("/api/sendUpdateData", (req, res) => {
   const updatedData = req.body;
   //  console.log('Updated data received:', updatedData);
-  logger.info(JSON.stringify(updatedData));
+  logger.info(updatedData);
   res.json({ message: "Updated data received successfully" });
 });
 
